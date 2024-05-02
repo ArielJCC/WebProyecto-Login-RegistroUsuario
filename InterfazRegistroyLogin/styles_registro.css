@@ -1,0 +1,75 @@
+/* Estilos para el registro de usuario */
+body {
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado */
+  font-family: Arial, sans-serif; /* Define la fuente del texto */
+  background-image: url('photo1.jpg'); /* Establece una imagen de fondo */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el área */
+}
+
+/* Estilos del contenedor */
+.container {
+  width: 100%; /* Establece el ancho del contenedor al 100% del ancho de la ventana */
+  max-width: 450px; /* Establece el ancho máximo del contenedor */
+  margin: 100px auto; /* Centra el contenedor horizontalmente */
+  background: rgba(255, 255, 255, 0.459); /* Fondo semi-transparente */
+  padding: 20px; /* Añade relleno alrededor del contenido del contenedor */
+  border-radius: 5px; /* Agrega esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+  backdrop-filter: blur(10px); /* Aplicar desenfoque */
+}
+
+/* Estilos para el título */
+h2 {
+  text-align: center; /* Centra el texto */
+  margin-bottom: 20px; /* Agrega espacio inferior */
+  color: #000000f6; /* Color del texto */
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+  margin-bottom: 15px; /* Agrega espacio inferior */
+}
+
+/* Estilos para los campos de texto, correo electrónico, teléfono y contraseña */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+button {
+  width: 100%; /* Establece el ancho al 100% del contenedor */
+  padding: 10px; /* Añade relleno alrededor del contenido */
+  border: 1px solid #ccc; /* Establece un borde */
+  border-radius: 5px; /* Agrega esquinas redondeadas */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto */
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #583206f6; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+button:hover {
+  background-color: #583206cb; /* Color de fondo al pasar por encima */
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+  position: relative; /* Establece la posición relativa */
+}
+
+/* Estilos para los campos de formulario dentro de los grupos */
+.form-group input {
+  padding-right: 30px; /* Ajusta el espacio a la derecha para el icono */
+}
+
+/* Estilos para los iconos en los campos de formulario */
+.form-group i {
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Alinea el icono verticalmente */
+  right: 10px; /* Ajusta la distancia del icono al borde derecho */
+  transform: translateY(-50%); /* Centra verticalmente el icono */
+  color: #030303d2; /* Color del icono */
+}

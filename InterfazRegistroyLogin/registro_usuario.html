@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="styles_registro.css" />
+  </head>
+  <!-- Enlace a la hoja de estilos de Font Awesome desde CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+  <body>
+    <!-- Contenedor principal -->
+    <div class="container">
+      <!-- Formulario de registro -->
+      <form id="registroForm" onsubmit="return validarFormulario()">
+        <!-- Encabezado del formulario -->
+        <h2>REGISTRATE</h2>
+        <!-- Campo para el nombre de usuario -->
+        <div class="form-group">
+          <!-- Icono de usuario -->
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            id="nombreUsuario"
+            placeholder="Nombre de usuario"
+            required
+          />
+          <!-- Campo para el correo electronico -->
+        </div>
+        <div class="form-group">
+          <!-- Icono de correo electronico -->
+          <i class="fas fa-envelope"></i>
+          <input
+            type="email"
+            id="correoElectronico"
+            placeholder="Correo Electrónico"
+            required
+          />
+          <!-- Campo para el numero de telefono -->
+        </div>
+        <div class="form-group">
+          <!-- Icono de telefono -->
+          <i class="fas fa-phone"></i>
+          <input
+            type="tel"
+            id="numeroTelefono"
+            placeholder="Número de Teléfono"
+            required
+          />
+          <!-- Campo para la contraseña -->
+        </div>
+        <div class="form-group">
+          <!-- Icono de contraseña -->
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            id="contrasena"
+            placeholder="Contraseña"
+            required
+          />
+          <!-- Campo para la confirmación de contraseña -->
+        </div>
+        <div class="form-group">
+          <!-- Icono de usuario -->
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            id="confirmarContrasena"
+            placeholder="Confirmar Contraseña"
+            required
+          />
+        </div>
+        <!-- Botón para enviar formulario -->
+        <button type="submit">Registrarse</button>
+        <!-- Enlace para iniciar sesión -->
+        <p style="text-align: center">
+          ¿Ya tienes cuenta? <a href="login.html">Iniciar sesión</a>
+        </p>
+      </form>
+    </div>
+    <!-- Enlace al archivo de script JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
